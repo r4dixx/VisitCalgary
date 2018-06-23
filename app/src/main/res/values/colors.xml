@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/pink_a400</color>
+    <color name="colorPrimaryDark">@color/pink_a400</color>
+    <color name="colorAccent">@color/white</color>
+    <color name="colorCategoryBackground">@color/white</color>
+    <color name="colorTabBackground">@color/pink_a400</color>
+    <color name="colorTabText">@color/pink_800</color>
+    <color name="colorTabTextSelected">@color/white</color>
+    <color name="colorTabIndicator">@color/white</color>
 </resources>

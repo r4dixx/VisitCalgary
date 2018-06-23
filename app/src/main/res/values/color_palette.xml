@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material color names -->
+    <color name="pink_a400">#E5003C</color>
+    <color name="pink_800">#C0002B</color>
+
+    <!-- "Regular" color names -->
+    <color name="white">#FFFFFF</color>
+    <color name="red_ribbon">#E5003C</color>
+    <color name="monza">#C0002B</color>
+</resources>
+
+

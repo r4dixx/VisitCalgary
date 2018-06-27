@@ -1,3 +1,92 @@
 <resources>
+
+    <!-- App title [CHAR MIN=1]-->
     <string name="app_name">Visit Calgary</string>
+
+    <!-- Card titles [CHAR MIN=1] [CHAR MAX=46] -->
+    <!-- Arts -->
+    <string name="card_title_art_Ballet">Alberta Ballet</string>
+    <string name="card_title_art_College">Alberta College of Art + Design</string>
+    <string name="card_title_art_Gallery">Alberta Craft Gallery</string>
+    <string name="card_title_art_Sport">Alberta Dancesport</string>
+    <string name="card_title_art_Theatre">Alberta Theatre Projects</string>
+    <string name="card_title_art_Commons">Arts Commons</string>
+    <string name="card_title_art_Church">Assumption Ukrainian Catholic Church</string>
+    <string name="card_title_art_Amphitheatre">Badlands Amphitheatre</string>
+    <string name="card_title_art_Mosque">Baitun Nur Mosque Calgary</string>
+    <!-- Shopping -->
+    <string name="card_title_shops_17thAve">17th Ave Retail &amp; Entertainment District</string>
+    <string name="card_title_shop_4thStreet">4th Street BIA</string>
+    <string name="card_title_shop_Boot">Alberta Boot Company Inc.</string>
+    <string name="card_title_shop_Bankers">Bankers Hall</string>
+    <string name="card_title_shop_BikeBike">BikeBike</string>
+    <string name="card_title_shop_Blondie">Blondie Boutique</string>
+    <string name="card_title_shop_Bow">Bow Cycle &amp; Sports</string>
+    <string name="card_title_shop_Britannia">Britannia Plaza</string>
+    <string name="card_title_shop_Farmers">Calgary Farmers\' Market</string>
+    <!-- Food -->
+    <string name="card_title_food_Alforno">Alforno Bakery &amp; Cafe</string>
+    <string name="card_title_food_Anju">Anju</string>
+    <string name="card_title_food_Annex">Annex Ale Project</string>
+    <string name="card_title_food_Atrium">Atrium Cafe &amp; Skylight Lounge</string>
+    <string name="card_title_food_Anejo">Añejo</string>
+    <string name="card_title_food_Banded">Banded Peak Brewing</string>
+    <string name="card_title_food_Bank">The Bank &amp; Baron Pub</string>
+    <string name="card_title_food_Bavarian">The Bavarian Inn Restaurant</string>
+    <!-- Hotels -->
+    <string name="card_title_hotel_Acclaim">Acclaim Hotel Calgary Airport</string>
+    <string name="card_title_hotel_Aloft">Aloft Calgary University Hotel</string>
+    <string name="card_title_hotel_BWAirport">Best Western Airport Inn</string>
+    <string name="card_title_hotel_BWPark">Best Western Plus Village Park Inn</string>
+    <string name="card_title_hotel_MarAirport">Calgary Airport Marriott In Terminal Hotel</string>
+    <string name="card_title_hotel_MarDowntown">Calgary Marriott Downtown Hotel</string>
+    <string name="card_title_hotel_Candlewood">Candlewood Suites Calgary Airport North</string>
+    <string name="card_title_hotel_Carriage">Carriage House Inn</string>
+    <string name="card_title_hotel_Clarion">Clarion Hotel &amp; Conference Centre</string>
+    <string name="card_title_hotel_CoastPlaza">Coast Plaza Hotel &amp; Conference Centre Calgary</string>
+
+    <!-- Card descriptions [CHAR MIN=43] [CHAR MAX=69] -->
+    <!-- Arts -->
+    <string name="card_desc_art_Ballet">Ballet performances from classical to contemporary</string>
+    <string name="card_desc_art_College">Discover your inner artist with exhibits and courses</string>
+    <string name="card_desc_art_Gallery">One-of-a-kind pieces of art curated in one amazing location</string>
+    <string name="card_desc_art_Sport">Calgary\'s best place to dance. Dance classes are open!</string>
+    <string name="card_desc_art_Theatre">Professional theatre company with a focus on idea-driven works</string>
+    <string name="card_desc_art_Commons">Theatre, music, and a café all in one city block</string>
+    <string name="card_desc_art_Church">Have a unique and private tour of the Church interior</string>
+    <string name="card_desc_art_Amphitheatre">Great acoustics in an incredible setting with 2,500 seats</string>
+    <string name="card_desc_art_Mosque">Visitors are welcome to enjoy Calgary’s largest mosque</string>
+    <!-- Shopping -->
+    <string name="card_desc_shop_17thAve">Over 400 unique shops, services and more to explore</string>
+    <string name="card_desc_shop_4thStreet">Shopping and dining street of dreams in Calgary</string>
+    <string name="card_desc_shop_Boot">100% locally crafted, western inspired boots</string>
+    <string name="card_desc_shop_Bankers">Glamorous downtown mall with high-end dining &amp; shopping</string>
+    <string name="card_desc_shop_BikeBike">The very premiere cargobike, city &amp; family cycling specialist</string>
+    <string name="card_desc_shop_Blondie">Rediscover top-notch style from around the globe</string>
+    <string name="card_desc_shop_Bow">Bike rentals, sales, accessories, and more!</string>
+    <string name="card_desc_shop_Britannia">Upscale plaza offers unique shopping, dining and services</string>
+    <string name="card_desc_shop_Farmers">Locally-sourced and prepared food all year long</string>
+    <!-- Food -->
+    <string name="card_desc_food_Alforno">Bright bakery serving fresh baked good and savoury hot meals</string>
+    <string name="card_desc_food_Anju">Modern, upscale and casual Korean tapas with a twist</string>
+    <string name="card_desc_food_Annex">Local craft brewers with a focus on flavour</string>
+    <string name="card_desc_food_Atrium">Cozy restaurant with a popular Sunday brunch</string>
+    <string name="card_desc_food_Anejo">Mexican dining in a multi-level vibrant and bold room</string>
+    <string name="card_desc_food_Banded">Founded with the love of the mountains as a raison d\'etre</string>
+    <string name="card_desc_food_Bank">Elegant downtown pub in a polished historical bank building</string>
+    <string name="card_desc_food_Bavarian">A romantic dining experience a short drive from Calgary</string>
+    <!-- Hotels -->
+    <string name="card_desc_hotel_Acclaim">Modern, sophisticated airport hotel with rooftop Jacuzzi</string>
+    <string name="card_desc_hotel_Aloft">Trendy hotel with guest rooms and easy access to the University</string>
+    <string name="card_desc_hotel_BWAirport">Comfort 10 minutes away from the Calgary International Airport</string>
+    <string name="card_desc_hotel_BWPark">Comfort and style abound at this recently renovated hotel</string>
+    <string name="card_desc_hotel_MarAirport">Hotels don’t get any closer to the airport than this</string>
+    <string name="card_desc_hotel_MarDowntown">Experience the very heart of downtown Calgary in comfort and luxury</string>
+    <string name="card_desc_hotel_Candlewood">Make yourself at home, minutes away from the International Airport</string>
+    <string name="card_desc_hotel_Carriage">Affordable and friendly hotel with a heated outdoor pool</string>
+    <string name="card_desc_hotel_Clarion">Meet face-to-face in the Clarion’s spacious conference rooms</string>
+    <string name="card_desc_hotel_CoastPlaza">Full service hotel located only minutes from downtown Calgary</string>
+
+    <!-- Card call to action [CHAR MIN=4] [CHAR MAX=11]-->
+    <string name="card_cta">Read more</string>
 </resources>

@@ -7,7 +7,7 @@
     android:layout_margin="16dp"
     card_view:cardBackgroundColor="#6A615B"
     card_view:cardCornerRadius="8dp"
-    card_view:cardElevation="4dp">
+    card_view:cardElevation="@dimen/cardview_default_elevation">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            tools:src="@drawable/accomodations_acclaimhotelcalgaryairport" />
+            tools:src="@drawable/arts_ballet" />
 
         <TextView
             android:id="@+id/card_title"
@@ -28,11 +28,12 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
+            android:maxLines="2"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif"
-            tools:text="Acclaim Hotel Calgary Airport" />
+            tools:text="@string/card_title_arts_ballet" />
 
         <TextView
             android:id="@+id/card_subtitle"
@@ -41,10 +42,11 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="4dp"
+            android:maxLines="2"
             android:textColor="#D9CBC0"
             android:textSize="16sp"
             app:fontFamily="sans-serif"
-            tools:text="Modern, sophisticated airport hotel with rooftop Jacuzzi." />
+            tools:text="@string/card_desc_arts_ballet" />
 
         <Button
             android:layout_width="118dp"
@@ -54,8 +56,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="24dp"
             android:background="@drawable/button_bg_outline"
-            android:textColor="@color/colorAccent"
-            tools:text="Read more" />
+            android:text="@string/card_cta"
+            android:textColor="@color/colorAccent" />
 
     </LinearLayout>
 

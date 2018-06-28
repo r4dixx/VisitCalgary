@@ -1,14 +1,19 @@
 <resources>
-
     <!-- App title [CHAR MIN=1]-->
     <string name="app_name">Visit Calgary</string>
+
+    <!-- Category titles [CHAR MIN=1] [CHAR MAX=10] -->
+    <string name="category_arts">Arts</string>
+    <string name="category_shops">Shopping</string>
+    <string name="category_food">Food</string>
+    <string name="category_hotels">Hotels</string>
 
     <!-- Card titles [CHAR MIN=1] [CHAR MAX=46] -->
     <!-- Arts -->
     <string name="card_title_art_Ballet">Alberta Ballet</string>
     <string name="card_title_art_College">Alberta College of Art + Design</string>
     <string name="card_title_art_Gallery">Alberta Craft Gallery</string>
-    <string name="card_title_art_Sport">Alberta Dancesport</string>
+    <string name="card_title_art_Dancesport">Alberta Dancesport</string>
     <string name="card_title_art_Theatre">Alberta Theatre Projects</string>
     <string name="card_title_art_Commons">Arts Commons</string>
     <string name="card_title_art_Church">Assumption Ukrainian Catholic Church</string>
@@ -50,7 +55,7 @@
     <string name="card_desc_art_Ballet">Ballet performances from classical to contemporary</string>
     <string name="card_desc_art_College">Discover your inner artist with exhibits and courses</string>
     <string name="card_desc_art_Gallery">One-of-a-kind pieces of art curated in one amazing location</string>
-    <string name="card_desc_art_Sport">Calgary\'s best place to dance. Dance classes are open!</string>
+    <string name="card_desc_art_Dancesport">Calgary\'s best place to dance. Dance classes are open!</string>
     <string name="card_desc_art_Theatre">Professional theatre company with a focus on idea-driven works</string>
     <string name="card_desc_art_Commons">Theatre, music, and a café all in one city block</string>
     <string name="card_desc_art_Church">Have a unique and private tour of the Church interior</string>

@@ -1,28 +1,107 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         <item name="cardViewStyle">@style/CardView</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="actionBarStyle">@style/AppBarStyle</item>
-        <item name="android:windowContentOverlay">@null</item>
-
-    </style>
-
-    <!-- App bar style -->
-    <style name="AppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
         <!-- Removes the shadow below the app bar -->
-        <item name="elevation">0dp</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <!-- Style for tabs -->
-    <style name="CategoryTab" parent="Widget.Design.TabLayout">
-        <item name="tabBackground">@color/colorCategoryBackground</item>
+    <!-- ActionBar theme -->
+    <style name="ActionBarTheme" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Removes the shadow below the app bar -->
+        <item name="elevation">@dimen/action_bar_elevation</item>
+    </style>
+
+    <!-- Base layout theme -->
+    <style name="BaseLayoutTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- TabLayout theme -->
+    <style name="TabLayoutTheme" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabBackground">@color/colorTabBackground</item>
+        <item name="tabIndicatorColor">@color/colorTabIndicator</item>
         <item name="tabTextColor">@color/colorTabText</item>
         <item name="tabSelectedTextColor">@color/colorTabTextSelected</item>
-        <item name="tabIndicatorColor">@color/colorTabIndicator</item>
+    </style>
+
+    <!-- ViewPager theme -->
+    <style name="ViewPagerTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- CardView theme -->
+    <style name="CardViewTheme" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_margins</item>
+        <item name="cardElevation">@dimen/cardview_elevation</item>
+        <item name="cardBackgroundColor">@color/colorCardBackground</item>
+        <item name="cardCornerRadius">@dimen/cardview_radius</item>
+    </style>
+
+    <!-- CardView Image theme -->
+    <style name="CardViewImageTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cardview_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- CardView Title theme -->
+    <style name="CardViewTitleTheme" parent="Base.TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margins</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margins</item>
+        <item name="android:layout_marginTop">@dimen/cardview_title_top_margin</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/colorCardTitle</item>
+        <item name="android:textSize">@dimen/cardview_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <!-- CardView Description theme -->
+    <style name="CardViewDescTheme" parent="Base.TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margins</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margins</item>
+        <item name="android:layout_marginTop">@dimen/cardview_desc_top_margin</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/colorCardDesc</item>
+        <item name="android:textSize">@dimen/cardview_desc_text_size</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <!-- CardView CTA theme -->
+    <style name="CardViewButtonContainerTheme">
+        <item name="android:layout_width">@dimen/cardview_button_width</item>
+        <item name="android:layout_height">@dimen/cardview_button_height</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margins</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margins</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margins</item>
+        <item name="android:layout_marginTop">@dimen/cardview_button_top_margin</item>
+        <item name="android:background">@drawable/button_bg_outline</item>
+
+    </style>
+
+    <style name="CardViewButtonContentTheme" parent="Base.TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/cardview_button_width</item>
+        <item name="android:layout_height">@dimen/cardview_button_height</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="fontFamily">sans-serif</item>
     </style>
 
 </resources>

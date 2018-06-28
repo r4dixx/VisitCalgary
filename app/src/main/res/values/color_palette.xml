@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Material color names -->
+    <color name="brown_100">#D9CBC0</color>
+    <color name="grey_700">#6A615B</color>
     <color name="pink_a400">#E5003C</color>
     <color name="pink_800">#C0002B</color>
 
     <!-- "Regular" color names -->
+    <color name="transparent">@android:color/transparent</color>
     <color name="white">#FFFFFF</color>
+    <color name="swirl">#D9CBC0</color>
+    <color name="pine_cone">#6A615B</color>
     <color name="red_ribbon">#E5003C</color>
     <color name="monza">#C0002B</color>
 </resources>

@@ -1,0 +1,32 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewTheme">
+
+    <LinearLayout style="@style/BaseLayoutTheme">
+
+        <ImageView
+            android:id="@+id/card_image"
+            style="@style/CardViewImageTheme"
+            tools:src="@drawable/art_ballet" />
+
+        <TextView
+            android:id="@+id/card_title"
+            style="@style/CardViewTitleTheme"
+            tools:text="@string/card_title_art_Ballet" />
+
+        <TextView
+            android:id="@+id/card_subtitle"
+            style="@style/CardViewDescTheme"
+            tools:text="@string/card_desc_art_Ballet" />
+
+        <FrameLayout style="@style/CardViewButtonContainerTheme">
+
+            <Button
+                android:id="@+id/card_button"
+                style="@style/CardViewButtonContentTheme"
+                android:text="@string/card_button" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

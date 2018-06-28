@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App -->
     <color name="colorPrimary">@color/pink_a400</color>
     <color name="colorPrimaryDark">@color/pink_a400</color>
     <color name="colorAccent">@color/white</color>
-    <color name="colorCategoryBackground">@color/white</color>
-    <color name="colorTabBackground">@color/pink_a400</color>
-    <color name="colorTabText">@color/pink_800</color>
-    <color name="colorTabTextSelected">@color/white</color>
-    <color name="colorTabIndicator">@color/white</color>
+
+    <!-- Tabs -->
+    <color name="colorTabBackground">@color/colorPrimary</color>
+    <color name="colorTabText">@color/colorAccent</color>
+    <color name="colorTabTextSelected">@color/colorAccent</color>
+    <color name="colorTabIndicator">@color/colorAccent</color>
+
+    <!-- Cards -->
+    <color name="colorCardBackground">@color/grey_700</color>
+    <color name="colorCardTitle">@color/colorAccent</color>
+    <color name="colorCardDesc">@color/brown_100</color>
+
+    <!-- Buttons -->
+    <color name="colorButtonBackground">@color/transparent</color>
+    <color name="colorButtonText">@color/colorAccent</color>
+    <color name="colorButtonOutline">@color/colorAccent</color>
 </resources>

@@ -17,13 +17,6 @@
         <item name="elevation">@dimen/action_bar_elevation</item>
     </style>
 
-    <!-- Base layout theme -->
-    <style name="BaseLayoutTheme">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
     <!-- TabLayout theme -->
     <style name="TabLayoutTheme" parent="Widget.Design.TabLayout">
         <item name="android:layout_width">match_parent</item>
@@ -34,11 +27,29 @@
         <item name="tabSelectedTextColor">@color/colorTabTextSelected</item>
     </style>
 
+    <!-- Base layout theme -->
+    <style name="BaseLayoutTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
     <!-- ViewPager theme -->
     <style name="ViewPagerTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
     </style>
+
+    <!-- ListView theme -->
+    <style name="ListViewTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:dividerHeight">@dimen/listview_divider_height</item>
+        <item name="android:divider">@null</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
 
     <!-- CardView theme -->
     <style name="CardViewTheme" parent="CardView">

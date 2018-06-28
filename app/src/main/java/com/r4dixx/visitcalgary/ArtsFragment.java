@@ -37,13 +37,6 @@ public class ArtsFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.places_list);
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Place place = places.get(position);
-            }
-        });
-
         return rootView;
 
     }

@@ -20,8 +20,8 @@
     <string name="card_title_art_Amphitheatre">Badlands Amphitheatre</string>
     <string name="card_title_art_Mosque">Baitun Nur Mosque Calgary</string>
     <!-- Shopping -->
-    <string name="card_title_shops_17thAve">17th Ave Retail &amp; Entertainment District</string>
-    <string name="card_title_shop_4thStreet">4th Street BIA</string>
+    <string name="card_title_shop_17thAve">17th Ave Retail &amp; Entertainment District</string>
+    <string name="card_title_shop_4thSt">4th Street BIA</string>
     <string name="card_title_shop_Boot">Alberta Boot Company Inc.</string>
     <string name="card_title_shop_Bankers">Bankers Hall</string>
     <string name="card_title_shop_BikeBike">BikeBike</string>
@@ -63,7 +63,7 @@
     <string name="card_desc_art_Mosque">Visitors are welcome to enjoy Calgary’s largest mosque</string>
     <!-- Shopping -->
     <string name="card_desc_shop_17thAve">Over 400 unique shops, services and more to explore</string>
-    <string name="card_desc_shop_4thStreet">Shopping and dining street of dreams in Calgary</string>
+    <string name="card_desc_shop_4thSt">Shopping and dining street of dreams in Calgary</string>
     <string name="card_desc_shop_Boot">100% locally crafted, western inspired boots</string>
     <string name="card_desc_shop_Bankers">Glamorous downtown mall with high-end dining &amp; shopping</string>
     <string name="card_desc_shop_BikeBike">The very premiere cargobike, city &amp; family cycling specialist</string>

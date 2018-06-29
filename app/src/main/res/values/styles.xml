@@ -50,18 +50,29 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_margins</item>
+        <item name="android:clipToPadding">false</item>
         <item name="android:dividerHeight">@dimen/listview_divider_height</item>
         <item name="android:divider">@null</item>
         <item name="android:drawSelectorOnTop">true</item>
         <item name="android:scrollbarThumbVertical">@color/colorPrimary</item>
+        <item name="android:scrollbarSize">@dimen/scrollbar_size</item>
     </style>
 
+    <!-- CardView container theme -->
+    <style name="CardViewContainerTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
 
     <!-- CardView theme -->
     <style name="CardViewTheme" parent="CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/activity_margins</item>
+        <item name="android:layout_marginTop">@dimen/activity_margins</item>
+        <item name="android:layout_marginLeft">@dimen/activity_margins</item>
+        <item name="android:layout_marginRight">@dimen/activity_margins</item>
         <item name="cardElevation">@dimen/cardview_elevation</item>
         <item name="cardBackgroundColor">@color/colorCardBackground</item>
         <item name="cardCornerRadius">@dimen/cardview_radius</item>

@@ -29,9 +29,9 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <!-- This makes the tabs fill the whole screen -->
-        <item name="app:tabMaxWidth">0dp</item>
-        <item name="app:tabGravity">fill</item>
-        <item name="app:tabMode">fixed</item>
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
         <!---->
         <item name="tabBackground">@color/colorTabBackground</item>
         <item name="tabIndicatorColor">@color/colorTabIndicator</item>
@@ -49,10 +49,11 @@
     <style name="ListViewTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
         <item name="android:dividerHeight">@dimen/listview_divider_height</item>
         <item name="android:divider">@null</item>
         <item name="android:drawSelectorOnTop">true</item>
-        <item name="android:orientation">vertical</item>
+        <item name="android:scrollbarThumbVertical">@color/colorPrimary</item>
     </style>
 
 

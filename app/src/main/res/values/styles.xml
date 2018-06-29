@@ -57,6 +57,7 @@
         <item name="android:drawSelectorOnTop">true</item>
         <item name="android:scrollbarThumbVertical">@color/colorPrimary</item>
         <item name="android:scrollbarSize">@dimen/scrollbar_size</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
     </style>
 
     <!-- CardView container theme -->

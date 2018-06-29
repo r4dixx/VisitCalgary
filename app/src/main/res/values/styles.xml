@@ -17,21 +17,26 @@
         <item name="elevation">@dimen/action_bar_elevation</item>
     </style>
 
-    <!-- TabLayout theme -->
-    <style name="TabLayoutTheme" parent="Widget.Design.TabLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="tabBackground">@color/colorTabBackground</item>
-        <item name="tabIndicatorColor">@color/colorTabIndicator</item>
-        <item name="tabTextColor">@color/colorTabText</item>
-        <item name="tabSelectedTextColor">@color/colorTabTextSelected</item>
-    </style>
-
     <!-- Base layout theme -->
     <style name="BaseLayoutTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- TabLayout theme -->
+    <style name="TabLayoutTheme" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- This makes the tabs fill the whole screen -->
+        <item name="app:tabMaxWidth">0dp</item>
+        <item name="app:tabGravity">fill</item>
+        <item name="app:tabMode">fixed</item>
+        <!---->
+        <item name="tabBackground">@color/colorTabBackground</item>
+        <item name="tabIndicatorColor">@color/colorTabIndicator</item>
+        <item name="tabTextColor">@color/colorTabText</item>
+        <item name="tabSelectedTextColor">@color/colorTabTextSelected</item>
     </style>
 
     <!-- ViewPager theme -->

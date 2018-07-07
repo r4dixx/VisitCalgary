@@ -13,7 +13,9 @@ import java.util.ArrayList;
 
 import butterknife.BindDrawable;
 import butterknife.BindString;
+import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 public class ShopsFragment extends Fragment {
 
@@ -77,6 +79,11 @@ public class ShopsFragment extends Fragment {
     @BindDrawable(R.drawable.shop_farmers)
     Drawable farmersDraw;
 
+    @BindView(R.id.places_list)
+    ListView listView;
+
+    private Unbinder unbinder;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -95,11 +102,15 @@ public class ShopsFragment extends Fragment {
         places.add(new Place(farmersTitle, farmersDesc, farmersDraw));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
-
-        ListView listView = rootView.findViewById(R.id.places_list);
         listView.setAdapter(adapter);
 
+        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
+    }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 }

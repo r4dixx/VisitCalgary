@@ -15,6 +15,7 @@ import butterknife.BindDrawable;
 import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 public class ArtsFragment extends Fragment {
 
@@ -75,6 +76,8 @@ public class ArtsFragment extends Fragment {
     @BindView(R.id.places_list)
     ListView listView;
 
+    private Unbinder unbinder;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -94,7 +97,13 @@ public class ArtsFragment extends Fragment {
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
         listView.setAdapter(adapter);
 
+        unbinder = ButterKnife.bind(this, rootView);
         return rootView;
+    }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 }

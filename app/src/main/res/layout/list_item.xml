@@ -17,7 +17,7 @@
                 tools:text="@string/card_title_art_Ballet" />
 
             <TextView
-                android:id="@+id/card_subtitle"
+                android:id="@+id/card_desc"
                 style="@style/CardViewDescTheme"
                 tools:text="@string/card_desc_art_Ballet" />
 

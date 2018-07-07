@@ -10,7 +10,17 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class PlaceAdapter extends ArrayAdapter<Place> {
+
+    @BindView(R.id.card_title)
+    TextView cardTitle;
+    @BindView(R.id.card_desc)
+    TextView cardDesc;
+    @BindView(R.id.card_image)
+    ImageView cardImage;
 
     public PlaceAdapter(Activity context, ArrayList<Place> places) {
         super(context, 0, places);
@@ -23,17 +33,13 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
+        ButterKnife.bind(this, listItemView);
 
         Place currentPlace = getItem(position);
 
-        TextView TitleTextView = listItemView.findViewById(R.id.card_title);
-        TitleTextView.setText(currentPlace.getPlaceTitle());
-
-        TextView DescTextView = listItemView.findViewById(R.id.card_subtitle);
-        DescTextView.setText(currentPlace.getPlaceDesc());
-
-        ImageView imageView = listItemView.findViewById((R.id.card_image));
-        imageView.setImageDrawable(currentPlace.getImageResource());
+        cardTitle.setText(currentPlace.getPlaceTitle());
+        cardDesc.setText(currentPlace.getPlaceDesc());
+        cardImage.setImageDrawable(currentPlace.getImageResource());
 
         return listItemView;
     }

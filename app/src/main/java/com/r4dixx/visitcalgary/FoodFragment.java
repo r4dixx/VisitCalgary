@@ -78,14 +78,14 @@ public class FoodFragment extends Fragment {
         ButterKnife.bind(this, rootView);
 
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(alfornoTitle,alfornoDesc,alfornoDraw));
-        places.add(new Place(anjuTitle,anjuDesc,anjuDraw));
-        places.add(new Place(annexTitle,annexDesc,annexDraw));
-        places.add(new Place(atriumTitle,atriumDesc,atriumDraw));
-        places.add(new Place(anejoTitle,anejoDesc,anejoDraw));
-        places.add(new Place(bandedTitle,bandedDesc,bandedDraw));
-        places.add(new Place(bankTitle,bandedDesc,bankDraw));
-        places.add(new Place(bavarianTitle,bavarianDesc,bavarianDraw));
+        places.add(new Place(alfornoTitle, alfornoDesc, alfornoDraw));
+        places.add(new Place(anjuTitle, anjuDesc, anjuDraw));
+        places.add(new Place(annexTitle, annexDesc, annexDraw));
+        places.add(new Place(atriumTitle, atriumDesc, atriumDraw));
+        places.add(new Place(anejoTitle, anejoDesc, anejoDraw));
+        places.add(new Place(bandedTitle, bandedDesc, bandedDraw));
+        places.add(new Place(bankTitle, bandedDesc, bankDraw));
+        places.add(new Place(bavarianTitle, bavarianDesc, bavarianDraw));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 

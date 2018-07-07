@@ -33,7 +33,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         DescTextView.setText(currentPlace.getPlaceDesc());
 
         ImageView imageView = listItemView.findViewById((R.id.card_image));
-        imageView.setImageResource(currentPlace.getImageResourceId());
+        imageView.setImageDrawable(currentPlace.getImageResource());
 
         return listItemView;
     }

@@ -1,5 +1,7 @@
 package com.r4dixx.visitcalgary;
 
+import android.graphics.drawable.Drawable;
+
 /**
  * {@link Place} represents a Calgary place summary that the user wants to learn more about.
  * It contains a descriptive image, a title and a short description for each place
@@ -9,12 +11,12 @@ public class Place {
 
     private String mPlaceTitle;
     private String mPlaceDescription;
-    private int mImageResourceId;
+    private Drawable mImageResource;
 
-    public Place(String placeTitle, String placeDescription, int imageResourceId) {
+    public Place(String placeTitle, String placeDescription, Drawable imageResource) {
         mPlaceTitle = placeTitle;
         mPlaceDescription = placeDescription;
-        mImageResourceId = imageResourceId;
+        mImageResource = imageResource;
     }
 
     public String getPlaceTitle() {
@@ -25,7 +27,7 @@ public class Place {
         return mPlaceDescription;
     }
 
-    public int getImageResourceId() {
-        return mImageResourceId;
+    public Drawable getImageResource() {
+        return mImageResource;
     }
 }

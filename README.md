@@ -50,7 +50,7 @@ Or use <a href="https://github.com/cesarferreira/dryrun" target="_blank">`dryrun
 
 <h2>Contributing</h2>
 
-This project is open to code improvements.
+This is an archive projects from another time. No contributions can be made.
 
 <h2>Project status</h2>
 Open to code improvements only. Closed for anything else.

@@ -53,7 +53,7 @@ Or use <a href="https://github.com/cesarferreira/dryrun" target="_blank">`dryrun
 This is an archive projects from another time. No contributions can be made.
 
 <h2>Project status</h2>
-Open to code improvements only. Closed for anything else.
+Closed
 
 <h2>Credits</h2>
 
